@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D44F5D21C809174007D8F5B /* BugshotKitFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44F5D11C809174007D8F5B /* BugshotKitFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D44F5D91C809174007D8F5B /* BugshotKitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D44F5CF1C809174007D8F5B /* BugshotKitFramework.framework */; };
+		0D44F5DE1C809174007D8F5B /* BugshotKitFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D44F5DD1C809174007D8F5B /* BugshotKitFrameworkTests.m */; };
 		4C15DA34188F48E400767C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C15DA33188F48E400767C78 /* Foundation.framework */; };
 		4C15DA3A188F48E400767C78 /* BugshotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA39188F48E400767C78 /* BugshotKit.m */; };
 		4C15DA59188F491000767C78 /* BSKAnnotationArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA41188F491000767C78 /* BSKAnnotationArrowView.m */; };
@@ -28,7 +31,23 @@
 		A9AF1AA518995AA90025693B /* MABGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF1AA318995AA90025693B /* MABGTimer.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0D44F5DA1C809174007D8F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C15DA26188F48E300767C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D44F5CE1C809174007D8F5B;
+			remoteInfo = BugshotKitFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0D44F5CF1C809174007D8F5B /* BugshotKitFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BugshotKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D44F5D11C809174007D8F5B /* BugshotKitFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugshotKitFramework.h; sourceTree = "<group>"; };
+		0D44F5D31C809174007D8F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D44F5D81C809174007D8F5B /* BugshotKitFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BugshotKitFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D44F5DD1C809174007D8F5B /* BugshotKitFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugshotKitFrameworkTests.m; sourceTree = "<group>"; };
+		0D44F5DF1C809174007D8F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C15DA30188F48E400767C78 /* libBugshotKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBugshotKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C15DA33188F48E400767C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C15DA37188F48E400767C78 /* BugshotKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BugshotKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -63,6 +82,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0D44F5CB1C809174007D8F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D44F5D51C809174007D8F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D44F5D91C809174007D8F5B /* BugshotKitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C15DA2C188F48E400767C78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,10 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D44F5D01C809174007D8F5B /* BugshotKitFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0D44F5D11C809174007D8F5B /* BugshotKitFramework.h */,
+				0D44F5D31C809174007D8F5B /* Info.plist */,
+			);
+			path = BugshotKitFramework;
+			sourceTree = "<group>";
+		};
+		0D44F5DC1C809174007D8F5B /* BugshotKitFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D44F5DD1C809174007D8F5B /* BugshotKitFrameworkTests.m */,
+				0D44F5DF1C809174007D8F5B /* Info.plist */,
+			);
+			path = BugshotKitFrameworkTests;
+			sourceTree = "<group>";
+		};
 		4C15DA25188F48E300767C78 = {
 			isa = PBXGroup;
 			children = (
 				4C15DA35188F48E400767C78 /* BugshotKit */,
+				0D44F5D01C809174007D8F5B /* BugshotKitFramework */,
+				0D44F5DC1C809174007D8F5B /* BugshotKitFrameworkTests */,
 				4C15DA32188F48E400767C78 /* Frameworks */,
 				4C15DA31188F48E400767C78 /* Products */,
 			);
@@ -87,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				4C15DA30188F48E400767C78 /* libBugshotKit.a */,
+				0D44F5CF1C809174007D8F5B /* BugshotKitFramework.framework */,
+				0D44F5D81C809174007D8F5B /* BugshotKitFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +202,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0D44F5CC1C809174007D8F5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D44F5D21C809174007D8F5B /* BugshotKitFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C15DA2D188F48E400767C78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +224,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0D44F5CE1C809174007D8F5B /* BugshotKitFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D44F5E41C809174007D8F5B /* Build configuration list for PBXNativeTarget "BugshotKitFramework" */;
+			buildPhases = (
+				0D44F5CA1C809174007D8F5B /* Sources */,
+				0D44F5CB1C809174007D8F5B /* Frameworks */,
+				0D44F5CC1C809174007D8F5B /* Headers */,
+				0D44F5CD1C809174007D8F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BugshotKitFramework;
+			productName = BugshotKitFramework;
+			productReference = 0D44F5CF1C809174007D8F5B /* BugshotKitFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0D44F5D71C809174007D8F5B /* BugshotKitFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D44F5E51C809174007D8F5B /* Build configuration list for PBXNativeTarget "BugshotKitFrameworkTests" */;
+			buildPhases = (
+				0D44F5D41C809174007D8F5B /* Sources */,
+				0D44F5D51C809174007D8F5B /* Frameworks */,
+				0D44F5D61C809174007D8F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D44F5DB1C809174007D8F5B /* PBXTargetDependency */,
+			);
+			name = BugshotKitFrameworkTests;
+			productName = BugshotKitFrameworkTests;
+			productReference = 0D44F5D81C809174007D8F5B /* BugshotKitFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4C15DA2F188F48E400767C78 /* BugshotKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C15DA3D188F48E400767C78 /* Build configuration list for PBXNativeTarget "BugshotKit" */;
@@ -187,6 +287,14 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Marco Arment";
+				TargetAttributes = {
+					0D44F5CE1C809174007D8F5B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0D44F5D71C809174007D8F5B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
 			};
 			buildConfigurationList = 4C15DA29188F48E300767C78 /* Build configuration list for PBXProject "BugshotKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -201,9 +309,28 @@
 			projectRoot = "";
 			targets = (
 				4C15DA2F188F48E400767C78 /* BugshotKit */,
+				0D44F5CE1C809174007D8F5B /* BugshotKitFramework */,
+				0D44F5D71C809174007D8F5B /* BugshotKitFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D44F5CD1C809174007D8F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D44F5D61C809174007D8F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		4C15DA2A188F48E400767C78 /* ShellScript */ = {
@@ -235,6 +362,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0D44F5CA1C809174007D8F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D44F5D41C809174007D8F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D44F5DE1C809174007D8F5B /* BugshotKitFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C15DA2B188F48E400767C78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,7 +400,111 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0D44F5DB1C809174007D8F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D44F5CE1C809174007D8F5B /* BugshotKitFramework */;
+			targetProxy = 0D44F5DA1C809174007D8F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0D44F5E01C809174007D8F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BugshotKitFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitchips.BugshotKitFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D44F5E11C809174007D8F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BugshotKitFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitchips.BugshotKitFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D44F5E21C809174007D8F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BugshotKitFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitchips.BugshotKitFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D44F5E31C809174007D8F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BugshotKitFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitchips.BugshotKitFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4C15DA3B188F48E400767C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -356,6 +602,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D44F5E41C809174007D8F5B /* Build configuration list for PBXNativeTarget "BugshotKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D44F5E01C809174007D8F5B /* Debug */,
+				0D44F5E11C809174007D8F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D44F5E51C809174007D8F5B /* Build configuration list for PBXNativeTarget "BugshotKitFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D44F5E21C809174007D8F5B /* Debug */,
+				0D44F5E31C809174007D8F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4C15DA29188F48E300767C78 /* Build configuration list for PBXProject "BugshotKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
