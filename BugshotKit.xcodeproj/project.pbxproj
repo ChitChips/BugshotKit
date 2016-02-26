@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D44F6281C8096E6007D8F5B /* Bugshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44F6271C8096E6007D8F5B /* Bugshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D44F62D1C8096EF007D8F5B /* BugshotKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA38188F48E400767C78 /* BugshotKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D44F62E1C8096F3007D8F5B /* BugshotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA39188F48E400767C78 /* BugshotKit.m */; };
 		0D44F62F1C8096F7007D8F5B /* BSKAnnotationArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA41188F491000767C78 /* BSKAnnotationArrowView.m */; };
 		0D44F6301C8096FB007D8F5B /* BSKAnnotationBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA43188F491000767C78 /* BSKAnnotationBlurView.m */; };
 		0D44F6311C8096FD007D8F5B /* BSKAnnotationBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA45188F491000767C78 /* BSKAnnotationBoxView.m */; };
@@ -26,6 +25,17 @@
 		0D44F63D1C80972A007D8F5B /* MABGTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AF1AA218995AA90025693B /* MABGTimer.h */; };
 		0D44F63E1C80972E007D8F5B /* MABGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF1AA318995AA90025693B /* MABGTimer.m */; };
 		0D44F63F1C80973B007D8F5B /* BSKMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA4C188F491000767C78 /* BSKMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D44F6421C8099B1007D8F5B /* BugshotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA39188F48E400767C78 /* BugshotKit.m */; };
+		0D44F6431C8099F4007D8F5B /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA56188F491000767C78 /* UIImage+ImageEffects.h */; };
+		0D44F6441C8099F9007D8F5B /* BSKToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA52188F491000767C78 /* BSKToggleButton.h */; };
+		0D44F6451C8099FC007D8F5B /* BSKScreenshotViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA50188F491000767C78 /* BSKScreenshotViewController.h */; };
+		0D44F6461C8099FE007D8F5B /* BSKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA4E188F491000767C78 /* BSKNavigationController.h */; };
+		0D44F6471C809A02007D8F5B /* BSKLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA4A188F491000767C78 /* BSKLogViewController.h */; };
+		0D44F6481C809A05007D8F5B /* BSKCheckerboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA48188F491000767C78 /* BSKCheckerboardView.h */; };
+		0D44F6491C809A07007D8F5B /* BSKAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA46188F491000767C78 /* BSKAnnotationView.h */; };
+		0D44F64A1C809A0F007D8F5B /* BSKAnnotationBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA44188F491000767C78 /* BSKAnnotationBoxView.h */; };
+		0D44F64B1C809A12007D8F5B /* BSKAnnotationBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA42188F491000767C78 /* BSKAnnotationBlurView.h */; };
+		0D44F64C1C809A14007D8F5B /* BSKAnnotationArrowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C15DA40188F491000767C78 /* BSKAnnotationArrowView.h */; };
 		4C15DA34188F48E400767C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C15DA33188F48E400767C78 /* Foundation.framework */; };
 		4C15DA3A188F48E400767C78 /* BugshotKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA39188F48E400767C78 /* BugshotKit.m */; };
 		4C15DA59188F491000767C78 /* BSKAnnotationArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DA41188F491000767C78 /* BSKAnnotationArrowView.m */; };
@@ -190,11 +200,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D44F6451C8099FC007D8F5B /* BSKScreenshotViewController.h in Headers */,
+				0D44F6481C809A05007D8F5B /* BSKCheckerboardView.h in Headers */,
+				0D44F64B1C809A12007D8F5B /* BSKAnnotationBlurView.h in Headers */,
+				0D44F6461C8099FE007D8F5B /* BSKNavigationController.h in Headers */,
+				0D44F6491C809A07007D8F5B /* BSKAnnotationView.h in Headers */,
 				0D44F63F1C80973B007D8F5B /* BSKMainViewController.h in Headers */,
+				0D44F6431C8099F4007D8F5B /* UIImage+ImageEffects.h in Headers */,
+				0D44F64A1C809A0F007D8F5B /* BSKAnnotationBoxView.h in Headers */,
 				0D44F62D1C8096EF007D8F5B /* BugshotKit.h in Headers */,
 				0D44F63D1C80972A007D8F5B /* MABGTimer.h in Headers */,
+				0D44F6441C8099F9007D8F5B /* BSKToggleButton.h in Headers */,
 				0D44F6281C8096E6007D8F5B /* Bugshot.h in Headers */,
+				0D44F64C1C809A14007D8F5B /* BSKAnnotationArrowView.h in Headers */,
 				0D44F63B1C80971D007D8F5B /* BSKWindow.h in Headers */,
+				0D44F6471C809A02007D8F5B /* BSKLogViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +275,7 @@
 		4C15DA26188F48E300767C78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Marco Arment";
 				TargetAttributes = {
 					0D44F6241C8096E6007D8F5B = {
@@ -336,9 +356,9 @@
 				0D44F6301C8096FB007D8F5B /* BSKAnnotationBlurView.m in Sources */,
 				0D44F6361C809716007D8F5B /* BSKMainViewController.m in Sources */,
 				0D44F63E1C80972E007D8F5B /* MABGTimer.m in Sources */,
+				0D44F6421C8099B1007D8F5B /* BugshotKit.m in Sources */,
 				0D44F6381C809716007D8F5B /* BSKScreenshotViewController.m in Sources */,
 				0D44F6371C809716007D8F5B /* BSKNavigationController.m in Sources */,
-				0D44F62E1C8096F3007D8F5B /* BugshotKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -442,6 +461,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -466,7 +486,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -528,6 +547,7 @@
 				0D44F62B1C8096E6007D8F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C15DA29188F48E300767C78 /* Build configuration list for PBXProject "BugshotKit" */ = {
 			isa = XCConfigurationList;
