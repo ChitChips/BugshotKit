@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C15DA2F188F48E400767C78"
-               BuildableName = "libBugshotKit.a"
+               BlueprintIdentifier = "0D44F5EC1C809429007D8F5B"
+               BuildableName = "BugshotKit.framework"
                BlueprintName = "BugshotKit"
                ReferencedContainer = "container:BugshotKit.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C15DA2F188F48E400767C78"
-            BuildableName = "libBugshotKit.a"
+            BlueprintIdentifier = "0D44F5EC1C809429007D8F5B"
+            BuildableName = "BugshotKit.framework"
             BlueprintName = "BugshotKit"
             ReferencedContainer = "container:BugshotKit.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C15DA2F188F48E400767C78"
-            BuildableName = "libBugshotKit.a"
+            BlueprintIdentifier = "0D44F5EC1C809429007D8F5B"
+            BuildableName = "BugshotKit.framework"
             BlueprintName = "BugshotKit"
             ReferencedContainer = "container:BugshotKit.xcodeproj">
          </BuildableReference>
